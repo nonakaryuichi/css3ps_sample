@@ -230,11 +230,24 @@ html body {
   background-image: -o-linear-gradient(top, #35c6f0, #56d9ff 12%, #0085ab);
   background-image: linear-gradient(top, #35c6f0, #56d9ff 12%, #0085ab);
   font-family: "Museo Sans";
+  text-decoration: none;
   text-align: center;
   line-height: 50px;
   font-size: 20px;
-  color: #f2f2f2;
+  color: #141418;
   text-shadow: 1px 1px rgba(255, 255, 255, 0.3);
+}
+/* line 127, ../scss/sample.scss */
+#joinButton:hover {
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 10px rgba(37, 37, 39, 0.2);
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 10px rgba(37, 37, 39, 0.2);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 10px rgba(37, 37, 39, 0.2);
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #35c6f0), color-stop(12%, #56d9ff), color-stop(100%, #0085ab));
+  background-image: -webkit-linear-gradient(bottom, #35c6f0, #56d9ff 12%, #0085ab);
+  background-image: -moz-linear-gradient(bottom, #35c6f0, #56d9ff 12%, #0085ab);
+  background-image: -o-linear-gradient(bottom, #35c6f0, #56d9ff 12%, #0085ab);
+  background-image: linear-gradient(bottom, #35c6f0, #56d9ff 12%, #0085ab);
 }
 
 /* *****************************
@@ -242,16 +255,16 @@ html body {
  * Footer link styles
  *
  **************************** */
-/* line 133, ../scss/sample.scss */
+/* line 141, ../scss/sample.scss */
 #links {
   width: 350px;
 }
-/* line 142, ../scss/sample.scss */
+/* line 150, ../scss/sample.scss */
 #links .item {
   margin-left: 15px;
   float: right;
 }
-/* line 149, ../scss/sample.scss */
+/* line 157, ../scss/sample.scss */
 #links .item a {
   display: block;
   overflow: hidden;
@@ -259,19 +272,19 @@ html body {
   white-space: nowrap;
   background: url('http://nonakaryuichi.github.com/scss_sprite_sample/images/links-sd26fa59df5.png') no-repeat;
 }
-/* line 165, ../scss/sample.scss */
+/* line 173, ../scss/sample.scss */
 #links .item.blog a {
   width: 196px;
   height: 20px;
   background-position: 0 0;
 }
-/* line 177, ../scss/sample.scss */
+/* line 185, ../scss/sample.scss */
 #links .item.github a {
   width: 44px;
   height: 20px;
   background-position: 0 -40px;
 }
-/* line 189, ../scss/sample.scss */
+/* line 197, ../scss/sample.scss */
 #links .item.twitter a {
   width: 45px;
   height: 17px;
