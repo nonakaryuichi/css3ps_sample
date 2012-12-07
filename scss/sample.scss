@@ -1,0 +1,22 @@
+/* *****************************
+ *
+ * Import file to Scss or Sass.
+ *
+ **************************** */
+//@import "compass";
+
+@import "import";
+@debug stylesheet-url('style.css');
+
+.additional_import_paths_sample
+{
+        @extend .import_sample;
+
+        width   : 300px;
+        height  : 200px;
+}
+
+.http_path
+{
+        background: image-url('ogp.png');
+}
